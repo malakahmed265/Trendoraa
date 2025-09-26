@@ -36,11 +36,11 @@ const HeroBanner = () => {
             Unmatched quality and modern styles that suit your taste.
           </p>
           <div className="d-grid gap-2 d-md-flex justify-content-md-start mt-4">
-            <Button variant="success" size="lg" className="px-4">
+            <Button variant="success" size="lg" className="px-4" >
               Shop Now
             </Button>
             <Button variant="outline-secondary" size="lg" className="px-4">
-              View Details
+              View Details 
             </Button>
           </div>
         </Col>
