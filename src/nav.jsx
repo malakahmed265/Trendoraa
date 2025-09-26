@@ -8,7 +8,7 @@ function NavBar() {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
       <Container>
-        {/* اللوجو */}
+        
         <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">
           <img
             src="\img\26.jpeg "  

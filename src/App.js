@@ -1,8 +1,8 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Nav from "./nav.jsx";  
-import Card from "./card";
-import Card2 from "./card2";
+import Card from "./card.jsx";
+import Card2 from "./card2.jsx";
 import ShopAll from "./shop all";
 import About from './about.jsx';
 import Contact from './contact.jsx';
