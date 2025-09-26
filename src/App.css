@@ -35,4 +35,236 @@
   to {
     transform: rotate(360deg);
   }
+
+}
+.hero-banner-custom {
+  max-height: 380px !important; 
+  overflow: hidden !important;
+}
+
+.hero-banner-custom .img-fluid {
+  height: 100% !important; 
+  width: 100% !important;
+  object-fit: cover !important; 
+}
+
+.hero-banner-custom h1 {
+  font-size: 2.2rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.hero-banner-custom p.lead {
+  font-size: 1rem !important;
+}
+
+.hero-banner-custom .btn {
+  padding: 0.5rem 1.2rem !important;
+  font-size: 0.9rem !important;
+}
+
+
+.product-card {
+  background: linear-gradient(180deg, #ffffff 0%, #fbfcfd 100%);
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(20, 20, 40, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 18px 35px rgba(20, 20, 40, 0.12);
+}
+
+.img-wrap {
+  position: relative;
+  height: 180px;
+  overflow: hidden;
+}
+
+.product-card .img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.product-card:hover .img-wrap img {
+  transform: scale(1.08);
+}
+
+.card-badge {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  font-weight: 700;
+  background: #ffc107 !important;
+  color: #1b1b1b !important;
+  padding: 0.35rem 0.6rem;
+  border-radius: 999px;
+}
+
+.product-card .card-body {
+  padding: 16px;
+}
+
+.product-card .price {
+  color: #198754;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.product-card button {
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.product-card button:hover {
+  transform: translateY(-3px);
+  background-color: #198754;
+  color: #fff;
+}
+
+
+
+
+.shop-all-page {
+  padding-top: 100px; 
+  padding-bottom: 50px;
+}
+
+.shop-title {
+  color: #198754; 
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+}
+
+
+.custom-card {
+  border: none;
+  transition: all 0.3s ease;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.custom-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.card-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+
+
+/* Hover effect for About cards */
+.hover-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.hover-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+}
+
+/* About page general */
+.about-page {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: linear-gradient(135deg, #e0f7e9, #ffffff);
+  border-radius: 12px;
+}
+
+
+.contact-page {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: linear-gradient(135deg, #e0f7e9, #ffffff);
+  border-radius: 12px;
+}
+
+.contact-page .form-control:focus {
+  border-color: #198754;
+  box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.25);
+}
+
+.contact-page button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+
+
+
+.login-page {
+  height: 100vh;
+  background: linear-gradient(135deg, #d4fc79, #96e6a1);
+}
+
+.login-card {
+  background: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.login-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.login-btn {
+  background: linear-gradient(45deg, #28a745, #218838);
+  border: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+  background: linear-gradient(45deg, #218838, #28a745);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.3);
+}
+
+
+.cart-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f0fff4, #e6ffe6);
+  padding: 30px 0;
+}
+
+.cart-page h2 {
+  font-size: 2rem;
+}
+
+.cart-page .card {
+  transition: all 0.3s ease-in-out;
+}
+
+.cart-page .card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.cart-page button {
+  font-weight: bold;
+}
+
+
+.logo-img {
+  width: 80pxpx;   
+  height: 40px;
+  object-fit: contain;
+  display: block;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.logo-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
 }
